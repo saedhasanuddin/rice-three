@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.112.5">
-    <title>Headers · Bootstrap v5.3</title>
+    <title>rice three</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
@@ -44,31 +44,14 @@
     <main>
         <h1 class="visually-hidden">Headers examples</h1>
         <div class="container-fluid bg-info">
-            <header class="d-flex flex-wrap justify-content-center py-3 border-bottom ">
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32">
-                        <use xlink:href="" />
-                    </svg>
-                    <img src="{{ asset('storage/gambar/logo.png') }}" width="50" height="50" alt="Logo">
-                </a>
-
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link text-white" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-white">Tentang kami</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-white">menu</a></li>
-                </ul>
-                <div class="text-end">
-                    <button type="button" class="btn btn-primary ">Login</button>
-                    <button type="button" class="btn btn-primary">Sign-up</button>
-                </div>
-            </header>
+            @include('partials.navbar')
         </div>
 
         <!-- carosel -->
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('storage/gambar/menuu.jpg') }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('storage/gambar/rayek.png') }}" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h4>Rice Three</h4>
                     </div>
@@ -85,15 +68,15 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('storage/gambar/gorengg.jpeg') }}" class="card-img-top" alt="...">
+                        <img src="{{ asset('storage/gambar/gorenggg.jpeg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">nasi goreng</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('storage/gambar/kuning.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card" style="width: 20rem;">
+                        <img src="{{ asset('storage/gambar/kuningg.jpeg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">nasi kuning</p>
                         </div>
@@ -101,7 +84,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="card" style="width: 20rem;">
-                        <img src="{{ asset('storage/gambar/lemak.jpg') }}" class="card-img-top" alt="...">
+                        <img src="{{ asset('storage/gambar/lemakk.jpeg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">nasi lemak</p>
                         </div>
@@ -138,3 +121,6 @@
 
 
         <div class="b-example-divider"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
